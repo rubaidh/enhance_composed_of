@@ -1,1 +1,3 @@
-# Include hook code here
+# Hook in
+
+ActiveRecord::Base.send :include, Rubaidh::EnhanceComposedOf::ValueObjectInitializerShouldTakeAHash
